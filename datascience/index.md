@@ -3,7 +3,7 @@ layout: default
 title: data science
 ---
 
-#### Introduction to statistical learning in python
+## Introduction to statistical learning in python
 
 <p>To practice using python for data science I decided to implement selected labs from Introduction to Data Science using python instead of R:</p>
 
