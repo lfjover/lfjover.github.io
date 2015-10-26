@@ -3,9 +3,9 @@ layout: default
 title: Luis Jover
 ---
 
-<img src="photo_luis.jpg" width="40%" align = "right">
+<img src="photo_luis.jpg" width="300" height= "300" style="float:right">
 
-## Luis Jover 
 
-[linkedin](https://www.linkedin.com/in/lfjover)
+This is my website. I will post stuff. That is the point of the internet.
+
 

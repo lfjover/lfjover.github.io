@@ -1,7 +1,12 @@
+
+
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 60%;
 }
+
+
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -14,6 +19,35 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #3B73B9;
 }
 a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: #333;
+}
+footer {
+    border-top: 1px ;
+    font-size: .8em;
+    position:fixed;
+    bottom:0;
+    z-index:999999
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+
