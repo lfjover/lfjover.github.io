@@ -5,11 +5,7 @@ title: data science
 
 ## Introduction to statistical learning in python
 
-<p>To practice using python for data science I decided to implement selected labs from Introduction to Data Science using python instead of R:</p>
+To practice using python for data science I implemented some of the labs from Introduction to Data Science using python:
 
-<ul>
-<li><a href="https://github.com/lfjover/intro_stat_learning/blob/master/linear_regression.ipynb">linear 
-regression</a></li>
-<li><a href="https://github.com/lfjover/intro_stat_learning/blob/master/logistic_regression.ipynb">logistic
-regression</a></li>
-</ul>
+1. [linear regression](https://github.com/lfjover/intro_stat_learning/blob/master/linear_regression.ipynb)
+2. [logistic regression](https://github.com/lfjover/intro_stat_learning/blob/master/logistic_regression.ipynb)
