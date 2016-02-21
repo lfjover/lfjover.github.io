@@ -1,0 +1,27 @@
+---
+layout: default
+title: 
+---
+
+<div class="posts">
+  {% for post in site.posts %}
+  <article class="post">
+    <h2 class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h2>
+
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+    
+    {{ post.excerpt }} 
+
+    <img src="/figures/{{ post.title }}.png" width="300" height= "300" align="middle">
+
+    <p><a class="btn btn-sm btn-primary" href="{{site.baseurl}}{{ post.url }}/#read-more" role="button">Read more <i class="fa fa-arrow-circle-right"></i></a>
+    </p>
+
+
+  </article>
+  {% endfor %}
+</idv>
