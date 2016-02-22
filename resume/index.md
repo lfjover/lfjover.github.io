@@ -3,4 +3,12 @@ layout: default
 title: Luis Jover
 ---
 
- <embed src="jover_resume.pdf" width="800px" height="610px">
+
+
+<object data="jover_resume.pdf" type="application/pdf" width="100%" height="610px">
+ 
+<p>It appears you don't have a PDF plugin for this browser.
+No problem... you can <a href="jover_resume.pdf">click here to
+download the PDF file.</a></p>
+  
+</object>

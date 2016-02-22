@@ -6,16 +6,16 @@ date: 2015-01-24
 
 <p>As a non-native speaker, English pronunciation can be tricky. I don't think I'm alone in this sentiment.  There is a reason why there are spelling bee competitions in English and not in Spanish.  There seems to exist more exceptions than rules in English pronunciation.  To attack this challenge from a data science perspective I decided to analyze a spoken English data set. The basic idea is that one can make more progress by learning how to pronounce the most common words than by trying to learn the rules of English pronunciation.</p>
 
-<p>I used the <a href = "http://www.linguistics.ucsb.edu/research/santa-barbara-corpus">Santa Barbara Corpus of Spoken American English</a> which has transcripts from recorded conversations from all over the United States.  The corpus "... represents a wide variety of people of different regional origins, ages, occupations, genders, and ethnic and social backgrounds".  At this point I will focus on the written transcripts but the data set also contains the audio of the conversations and time stamps to relate the two.  Let's start by looking at the most common words.
+<p>I used the <a href = "http://www.linguistics.ucsb.edu/research/santa-barbara-corpus">Santa Barbara Corpus of Spoken American English</a> which has transcripts from recorded conversations from all over the United States.  The corpus "... represents a wide variety of people of different regional origins, ages, occupations, genders, and ethnic and social backgrounds".  At this point I will focus on the written transcripts but the data set also contains the audio of the conversations and time stamps to relate the two.  Let's start by looking at the most common words.</p>
 
 
-<img src="/figures/common_words.png" width="400" height= "400" align="middle">
+<center><img src="/figures/common_words.png" width=50%></center>
 
 <p>Not much of a surprise here.  I did notice that the word "uh" appears high in the list.  It brought to my attention that if you come from a Spanish background you should probably start saying "uh" instead of "eh", as I do, to sound more like a native speaker.</p> 
 
 <p>Next I looked at bi-grams, which are pair of words occurring consecutively.  The reason is that people do not pronounce each word separately but instead words tend to blend together changing the pronunciation.</p>
 
-<img src="/figures/common_bigrams.png" width="400" height= "400" align="middle">
+<center><img src="/figures/common_bigrams.png" width=50%></center>
 
 <p>"You know" has a disproportionate amount of occurrences.  People tend to be critical of filler terms like "you know" or "uh".  I think that they are a natural part of conversational English.  It's a good idea to minimize them, specially when public speaking, but I don't make a big deal out of it.</p>
 
