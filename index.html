@@ -4,21 +4,23 @@ title:
 ---
 
 <img src="/figures/banner.png" width="100%" height= "120">
-
+<hr  class = "thin">
 {% for post in site.posts %}
   <h2 class="post-title">
     <a href="{{ site.baseurl }}{{ post.url }}">
       {{ post.title }}
     </a>
   </h2>
-
+  
   <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date" style="color:gray;">{{ post.date | date_to_string }}</time>
   
   {{ post.excerpt }} 
 
-  <center><img src="/figures/{{ post.title }}.png" width=50%></center>
+  <center><img src="/figures/{{ post.figure_name }}.png" width=60%></center>
 
   <p><a class="btn btn-sm btn-primary" href="{{site.baseurl}}{{ post.url }}" role="button">Read more <i class="fa fa-arrow-circle-right"></i></a>
   </p>
+
+  <hr  class = "thin">
 
 {% endfor %}
