@@ -2,7 +2,7 @@
 layout: post
 title: Predicting Crime in Atlanta
 date: 2016-02-20
-figure_name: crimes_last_year
+figure_name: forecast
 ---
 <p> In the last post we did some exploratory analysis using Atlanta crime data. Now we are going to take a closer look at the time series to create a predictive model. In the previous post we saw that the data presents an overall downwards trend (good news for Atlantians like myself). The time series also  has annual seasonality. Looking at the last year we can see that crime is higher during the Summer and lower close to February. This general pattern repeats every year and is probably driven by weather; Winter slows everyone down.  
 </p>
@@ -23,4 +23,5 @@ Using our fitted model we can predict the total number of crimes in the next yea
 </p>
 <center><img src="/figures/forecast.png" width=70%><center>
 
-The blue line represents our prediction with confidence intervals (grey). I don't think the Atlanta Police Department will be using my model any time soon, so my goal is not to optimize it. Instead, we are looking to learn something new from the data. The prediction reveals a pattern that I didn't notice with the raw data. Namely, there seems to be two peak in the annual pattern, one around Summer and another just before Winter when crimes goes down.
+<p>
+The blue line represents our prediction with confidence intervals (grey). I don't think the Atlanta Police Department will be using my model any time soon, so my goal is not to optimize it. Instead, we are looking to learn something new from the data. The prediction reveals a pattern that I didn't notice with the raw data. Namely, there seems to be two peak in the annual pattern, one around Summer and another just before Winter when crimes goes down.</p>
