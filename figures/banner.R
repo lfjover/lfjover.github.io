@@ -10,7 +10,7 @@ p <- ggplot(aes(x,y),data =d) + geom_line(size = 1) +
 print(p)
 dev.off()
 
-n <- 200
+n <- 400
 x1 <- seq(-5*pi,5*pi, length.out = n )
 y1 <- sin(x1-pi/4) + rnorm(n,0,0.05)
 y2 <- cos(x1) + rnorm(n,0,0.05)

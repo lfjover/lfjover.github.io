@@ -1,0 +1,26 @@
+---
+layout: post
+title: Predicting Crime in Atlanta
+date: 2016-02-20
+figure_name: crimes_last_year
+---
+<p> In the last post we did some exploratory analysis using Atlanta crime data. Now we are going to take a closer look at the time series to create a predictive model. In the previous post we saw that the data presents an overall downwards trend (good news for Atlantians like myself). The time series also  has annual seasonality. Looking at the last year we can see that crime is higher during the Summer and lower close to February. This general pattern repeats every year and is probably driven by weather; Winter slows everyone down.  
+</p>
+
+<center><img src="/figures/crimes_last_year.png" width=70%><center>
+
+<p>
+An important tool in time series analysis is the autocorelation function. It gives the correlation of the time series with itself at different lags:
+</p>
+
+<center><img src="/figures/acf.png" width=70%><center>
+
+<p>The autocorrelation graph shows  a combination of a decaying trend and an oscillation. The decaying trend is a signature of the long term decaying trend in the data. The oscillations reveal another important fact of the time series: a short term seasonality. We can see that the peaks occur at multiples of seven days.This mean that the data has a weakly seasonality too. This makes sense, the number of crimes depend on the day of the week. </p>
+
+<p>
+So the data has both  annual and weakly seasonality. To model the time series we are going to use a BATS models. It incorporates "Box-Cox transformations, Fourier representations with time varying coefficients, and ARMA error correction", you can learn more about this types of models here <a href = "http://robjhyndman.com/papers/ComplexSeasonality.pdf">here</a>. This type of model can be used to model complex seasonality like the one in our data set. 
+Using our fitted model we can predict the total number of crimes in the next year.
+</p>
+<center><img src="/figures/forecast.png" width=70%><center>
+
+The blue line represents our prediction with confidence intervals (grey). I don't think the Atlanta Police Department will be using my model any time soon, so my goal is not to optimize it. Instead, we are looking to learn something new from the data. The prediction reveals a pattern that I didn't notice with the raw data. Namely, there seems to be two peak in the annual pattern, one around Summer and another just before Winter when crimes goes down.
