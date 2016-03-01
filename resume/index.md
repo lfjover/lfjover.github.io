@@ -78,7 +78,7 @@ Interdisciplinary work (quantitative Biology, Theoretical Ecology), data analysi
 <h3> Programming languages</h3>
  MATLAB, R, Python, SQL.
  <h3> Selected Coursework</h3>
- Statistical Methods, Data Mining, Statistical Signal Processing.
+ Statistical Methods, Data Mining, Machine Learning.
  <h3>Languages</h3>
  English, Spanish.
 
