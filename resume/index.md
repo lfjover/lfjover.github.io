@@ -16,8 +16,6 @@ h3 {margin-bottom: -2px;}
 </head>
 
 <font size ="2">
-<p>lfjover@gmail.com|404.952.8363|lfjover.github.io|1076 Center St NW, Atlanta GA<p>
-
 
 <h1> </h1>
 
