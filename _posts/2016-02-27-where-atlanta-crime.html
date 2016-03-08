@@ -1,0 +1,28 @@
+---
+layout: post
+title: Visualizing Atlanta Crime Data
+date: 2016-02-27
+figure_name: where_last_year
+---
+<p> Last post we looked at the temporal patterns of crime in Atlanta. In this post we look at the spatial component of the data. It is interesting the information you can get just by looking at the data. Close to the center of the map, in Midtown Atlanta, you can see an empty area surrounded by a high density of crimes. I was able to recognize the shape of Georgia Tech. This means that, as a Graduate student, I spend most of my day in crime-free bubble surrounded by crime. 
+</p>
+
+<center><img src="/figures/where_last_year.png" width=90%><center>
+
+<p>
+To see if there are any obvious patterns we can separate last year's data by  type of crime:
+</p>
+
+<center><img src="/figures/where_last_year_type.png" width=95%><center>
+
+The 2015 data suggests that there might exist a pattern in the occurrences of rape, with most cases concentrated around a specific area. Nevertheless, when we look at the data over the different years the pattern isn't as obvious:
+
+<center><img src="/figures/where_by_year_rape.png" width=95%><center>
+
+The 2015 data seems to be concentrated around the Interstate 75 (I-75), even when the pattern does not look as strong for the other years. This insight may be more general extending to all types of crime and may have recently affected me. I live in Home Park, a neighborhood near Georgia Tech. Last weekend somebody  broken into my car and stole  my radio. Talking to the Police Officer in charge of my case, he mentioned that the relatively high crime rate in the area is due to the proximity to the Interstate. The hypothesis being that people come from other areas to commit crimes and the Interstate provides a good escape route. With this idea in mind we can look at all the crime near Georgia Tech since 2009.
+
+<center><img src="/figures/near_georgia_tech.png" width=95%><center>
+
+I marked the highway exits in blue and planned to calculate crime as a function of the distance to the nearest exit to the I-75. But, looking at the data it is obvious that, at least at this scale, the distance to the closest I-75 exit is not a factor. Instead we see specific streets and areas that have higher number of crimes. At a larger scale, there may exist a correlation, but population density is also  higher closer to I-75, so it would be necessary to normalize the data.  We can also separate the data near Georgia Tech  by type of crime:
+
+<center><img src="/figures/near_georgia_tech_type.png" width=95%><center>
