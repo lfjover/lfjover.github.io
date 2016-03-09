@@ -16,6 +16,7 @@ h3 {margin-bottom: -2px;}
 </head>
 
 <font size ="2">
+
 <h1> </h1>
 
 <h2>Experience</h2>
@@ -76,11 +77,6 @@ Interdisciplinary work (computational Biology, Theoretical Ecology), data analys
  MATLAB, R, Python, SQL.
  <h3> Selected Coursework</h3>
  Statistical Methods, Data Mining, Machine Learning, Hortonworks Data Science (four days intensive course), Teradata (one day training).
-Interdisciplinary work (quantitative Biology, Theoretical Ecology), data analysis and mathematical modeling in data-driven problems.
-<h3> Programming languages</h3>
- MATLAB, R, Python, SQL.
- <h3> Selected Coursework</h3>
- Statistical Methods, Data Mining, Machine Learning.
  <h3>Languages</h3>
  English, Spanish.
 
